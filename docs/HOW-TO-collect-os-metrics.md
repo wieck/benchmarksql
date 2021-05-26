@@ -85,7 +85,9 @@ and run a docker container with the *graphiteapp/graphite-statsd*
 image. This image comes with a configuration that will work for
 this tutorial. Namely the default metric data retention is set
 to keep data at 10 second granularity for 6 hours, then at 1 minute
-for 6 days and finally at 10 minutes for 1800 days.
+for 6 days and finally at 10 minutes for 1800 days. If you intend
+to use *graphite* in a more serious way, check out their
+[excellent graphite documentation](https://graphite.readthedocs.io/en/latest/install.html).
 
 It is important to understand that in this setup, the *graphite*
 container needs to run on a system, that can be reached by the
