@@ -15,7 +15,7 @@ a suitable *graphite* instance, please skip to
 [Installing collectd](#installing-collectd-on-servers)
 and tweak as needed.
 
-![tutorial-1-overview](tutorial-1/overview.svg)
+![tutorial-1-overview](tutorial-1/overview-collectd.svg)
 
 Above is the overall network topology for this benchmark setup.
 For test purposes the **APP-Server** and **DB-Server** could
