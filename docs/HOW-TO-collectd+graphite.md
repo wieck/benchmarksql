@@ -113,7 +113,7 @@ docker container, or localhost if the container is running on
 your desktop). You should see something like the following
 screenshot, which means that *graphite* was successfully launched.
 
-![graphite main image](./screenshots/graphite-1.png)
+![graphite main image](./tutorial-1/graphite-1.png)
 
 ## Installing collectd on servers
 
@@ -215,7 +215,7 @@ individual metrics reported for it.
 
 Expand it all down to the **load** metrics, which should look like this:
 
-![graphite-load-metrics](screenshots/graphite-2.png)
+![graphite-load-metrics](tutorial-1/graphite-2.png)
 
 Now click once (enable) the three **load** metrics, **shortterm**,
 **midterm** and **longterm**. Then change the reporting duration by
@@ -224,7 +224,7 @@ and enable **Auto-Refresh** at the bottom. Finally run some load
 (like a pgbench) on the DB server and after a while you should see
 something similar to
 
-![graphite-load-metrics](screenshots/graphite-3.png)
+![graphite-load-metrics](tutorial-1/graphite-3.png)
 
 Congratulations, your overall setup is now half way completed
 and looks like this:

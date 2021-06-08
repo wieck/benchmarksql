@@ -120,7 +120,7 @@ service, or localhost if it is running on
 your desktop). You should see something like the following
 screenshot, which means that *prometheus* was successfully launched.
 
-![prometheus main image](./screenshots/prometheus-1.png)
+![prometheus main image](./tutorial-1/prometheus-1.png)
 
 In the **Expression** field enter ```node_load1``` and
 click **Execute**. Then in the tabs below (Table/Graph)
@@ -133,12 +133,12 @@ pgbench -n -c20 -T60 pgbench
 and wait for it to finish. The click **Execute** again and
 you should see something like
 
-![prometheus graph](screenshots/prometheus-2.png)
+![prometheus graph](tutorial-1/prometheus-2.png)
 
 Congratulations, your overall setup is now half way completed
 and looks like this:
 
-![tutorial-1-prometheus](tutorial-1/prometheus.svg)
+![tutorial-1-prometheus](tutorial-1/overview-prometheus-only.svg)
 
 In case you haven't noticed, you also now have a *prometheus* system
 that you can use to analyze your test database server while you
@@ -149,4 +149,4 @@ loads. This setup will work while running just about anything.
 Instead it is possible to use a dedicated dashboard and visualization
 system like
 [Grafana Support for Prometheus](https://prometheus.io/docs/visualization/grafana).
-![grafana_prometheus](screenshots/grafana_prometheus.png)
+![grafana_prometheus](tutorial-1/grafana_prometheus.png)
