@@ -46,8 +46,7 @@ and alerting on metric data. BenchmarkSQL cannot support all of
 them directly. Instead BenchmarkSQL implements Python scripts
 that are meant to extract the data from the underlying time series
 data store and save it in a common format for the report
-generator. The file format is described in detail at the end of
-this page.
+generator.
 
 The two solutions we cover for this tutorial series are
 
@@ -56,7 +55,4 @@ The two solutions we cover for this tutorial series are
 or
 
 [*collectd* and *graphite*](HOW-TO-collectd+graphite.md).
-
-## The *os-metric.json* file format
-
 
